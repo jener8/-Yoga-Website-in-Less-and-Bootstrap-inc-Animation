@@ -1,1 +1,40 @@
 //  Mixins
+
+
+.background{
+   background: url(../img/intro_pattern_bg.png) repeat bottom left ;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.forground{
+       background: url(../img/intro_pattern_fg.png) repeat bottom left ;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.forground_animation{
+  background: url(../img/intro_pattern_fg.png) repeat bottom left ;
+    background-size: 100%;
+  transform-origin: 50% 100%;
+
+}
+
+
+
+.keyframes(@name; @arguments) {
+    @-moz-keyframes @name { @arguments(); }
+    @-webkit-keyframes @name { @arguments(); }
+    @keyframes @name { @arguments(); }
+}
+
+.animation(@arguments) {
+    -webkit-animation: @arguments;
+    -moz-animation: @arguments;
+    animation: @arguments;
+}
+
+// blending
+
+.screen{
+      mix-blend-mode: screen;
+}
