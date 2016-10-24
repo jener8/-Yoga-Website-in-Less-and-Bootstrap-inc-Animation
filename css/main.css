@@ -8,13 +8,7 @@
   background-attachment: fixed;
   background-size: 100%;
 }
-.forground {
-  background: url(../img/intro_pattern_fg.png) repeat bottom left;
-  background-attachment: fixed;
-  background-size: 100%;
-}
 .forground_animation {
-  background: url(../img/intro_pattern_fg.png) repeat bottom left;
   background-size: 100%;
   -webkit-transform-origin: 50% 100%;
       -ms-transform-origin: 50% 100%;
@@ -67,7 +61,6 @@ html {
 }
 @media only screen and (min-width: 768px) {
   #frontpattern {
-    background: url(../img/intro_pattern_fg.png) repeat bottom left;
     background-size: 100%;
     -webkit-transform-origin: 50% 100%;
         -ms-transform-origin: 50% 100%;
@@ -98,7 +91,6 @@ html {
 }
 @media only screen and (max-width: 767px) {
   #frontpattern {
-    background: url(../img/intro_pattern_fg.png) repeat bottom left;
     background-size: 100%;
     -webkit-transform-origin: 50% 100%;
         -ms-transform-origin: 50% 100%;
