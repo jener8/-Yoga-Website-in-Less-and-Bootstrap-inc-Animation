@@ -176,3 +176,7 @@ function init() {
         icon: image
     });
 }
+
+//reload on resize
+
+$(window).resize(function(){location.reload();});
